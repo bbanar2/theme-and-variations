@@ -236,17 +236,6 @@ def print_volume_handler(unused_addr, *args):
             attr_plot = True,
             z_values = z_values)
 
-  # parser2 = argparse.ArgumentParser()
-  # parser2.add_argument("--ip", default="127.0.0.1",
-  #     help="The ip of the OSC server")
-  # parser2.add_argument("--port", type=int, default=8004,
-  #     help="The port the OSC server is listening on")
-  # args2 = parser2.parse_args()
-
-  # client = udp_client.SimpleUDPClient(args2.ip, args2.port)
-  
-  # print(args)
-  # client.send_message("/notess", random.random())
 
 if __name__ == "__main__":
   
